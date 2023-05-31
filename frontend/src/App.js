@@ -1,7 +1,6 @@
 import './App.css';
-import Footer from './Footer';
-import Header from './Header';
-import LandingPage from './LandingPage';
+// import Footer from './Components/Footer';
+import Header from './Components/Header';
 
 function App() {
   return (
@@ -9,8 +8,7 @@ function App() {
     // hello form react
     <div className="App">
       <Header/>
-      <LandingPage/>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
